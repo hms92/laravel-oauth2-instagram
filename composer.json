@@ -1,0 +1,20 @@
+{
+    "name": "hms92/laravel-oauth2-instagram",
+    "description": "test first package for oauth2",
+    "type": "library",
+    "license": "HMS92",
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HMS92\\Laravel\\OAuth2\\Instagram\\InstagramServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "HMS92\\Laravel\\Oauth2\\Instagram\\": "src/"
+        }
+    }
+}
